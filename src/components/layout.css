@@ -643,7 +643,7 @@ video {
   position: fixed;
   top: 0;
   left: 0;
-
+  z-index: -100;
 
   /* position: fixed; */
   /* top: 50%; */
@@ -652,7 +652,6 @@ video {
   /* min-height: 100%; */
   /* width: auto; */
   /* height: auto; */
-  /* z-index: -100; */
   /* transform: translate(-50%, -50%); */
 }
 
