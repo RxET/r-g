@@ -1,15 +1,17 @@
 import React from "react"
 import countdown from "countdown"
+import "./countdown.css"
 
 const weddingDay = new Date('September 12, 2020 18:30:00');
 const counting = countdown(null, weddingDay)
 
 const Countdown = () => (
-  <div>
-    <h2 className="months">{counting.months} months</h2>
-    <h2 className="days">{counting.days} days</h2>
-    <h2 className="hours">{counting.hours} hours</h2>
+  <div className="countdown">
+    <h4 className="months">{counting.months} months</h4>
+    <h4 className="days">{counting.days} days</h4>
+    <h4 className="hours">{counting.hours} hours</h4>
+    <h4 className="minutes">{counting.minutes} minutes</h4>
   </div>
-)
+);
 
 export default Countdown

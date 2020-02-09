@@ -3,13 +3,11 @@ import PropTypes from "prop-types"
 import React from "react"
 import "./header.css"
 
+import Countdown from "../components/countdown"
+
+
 const Header = ({ siteTitle }) => (
   <header>
-    <div
-      className="container"
-    >
-      <p>{siteTitle}</p>
-      <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
@@ -18,10 +16,8 @@ const Header = ({ siteTitle }) => (
             fontSize: '24px'
           }}
         >
-          Up, up and away!
+        <Countdown/>
         </Link>
-      </h1>
-    </div>
   </header>
 )
 

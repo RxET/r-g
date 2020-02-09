@@ -2,12 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  /* flex-direction: column; */
   color: white;
   border-radius: 8px 8px;
-  height: 80vh;
+  height: 60vh;
   width: 20vw;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  margin: 0 auto;
 }
 
 .formContainer h1 {

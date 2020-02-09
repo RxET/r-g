@@ -1,0 +1,12 @@
+.topLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bottomLine {
+  float: right;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-around; */
+}

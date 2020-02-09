@@ -16,13 +16,10 @@ const Success = props => (
     <div id="main" className="alt">
       <section id="one">
         <div className="inner">
-          <header className="major">
-            <h1>Success/Thank You Page</h1>
+          <header className="major" style={{textAlign: `center`}}>
+            <h1>Thanks!</h1>
+            <h2>We'll be in touch via e-mail with room block details</h2>
           </header>
-          <span className="image main">
-            {/* <img src={pic11} alt="" /> */}
-          </span>
-          <p>Thank you for contacting us!</p>
         </div>
       </section>
     </div>
