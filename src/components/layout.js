@@ -11,8 +11,10 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import Clouds from "../assets/Clouds.mp4"
 
 const Layout = ({ children }) => {
+
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -25,19 +27,27 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+    <video muted autoPlay loop preload="auto" src={Clouds}/>
+
+
+    <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
           margin: `0 auto`,
           maxWidth: 960,
           padding: `0 1.0875rem 1.45rem`,
+          textAlign: `center`,
         }}
       >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
+
+
+
+        <main style={{minHeight: `100vh`,
+        height: `100%`,}}>{children}</main>
+        <footer style={{marginTop: `-150px`, height:`50px`}}>
+          © {new Date().getFullYear()}, Built by
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.github.com/RxET">Roxie</a>
         </footer>
       </div>
     </>

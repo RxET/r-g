@@ -1,15 +1,17 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import "./header.css"
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `transparent`,
       marginBottom: `1.45rem`,
     }}
   >
     <div
+      className="container"
       style={{
         margin: `0 auto`,
         maxWidth: 960,
@@ -20,11 +22,12 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `#C12B34`,
             textDecoration: `none`,
+            fontSize: '24px'
           }}
         >
-          {siteTitle}
+          Up, up and away!
         </Link>
       </h1>
     </div>

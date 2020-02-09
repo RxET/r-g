@@ -1,10 +1,11 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Roxie-and-Genevieve",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "We're getting hitched",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Roxie Turner <roxie.turner@gmail.com>",
   "dependencies": {
+    "countdown": "^2.6.0",
     "gatsby": "^2.19.7",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-manifest": "^2.2.39",
