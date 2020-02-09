@@ -6,9 +6,9 @@ const counting = countdown(null, weddingDay)
 
 const Countdown = () => (
   <div>
-    <h2 class="months">{counting.months} months</h2>
-    <h2 class="days">{counting.days} days</h2>
-    <h2 class="hours">{counting.hours} hours</h2>
+    <h2 className="months">{counting.months} months</h2>
+    <h2 className="days">{counting.days} days</h2>
+    <h2 className="hours">{counting.hours} hours</h2>
   </div>
 )
 
