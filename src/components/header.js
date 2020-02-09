@@ -4,20 +4,11 @@ import React from "react"
 import "./header.css"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `transparent`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header>
     <div
       className="container"
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
     >
+      <p>{siteTitle}</p>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"

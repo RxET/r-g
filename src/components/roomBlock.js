@@ -4,7 +4,7 @@ import "./roomBlock.css"
 const RoomBlock = () => (
   <div className="formContainer">
     <h1>Spending the night at TWA?</h1>
-    <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+    <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/success">
       <input type="hidden" name="bot-field" />
       <input type="hidden" name="form-name" value="contact" />
       <div className="field half first">
