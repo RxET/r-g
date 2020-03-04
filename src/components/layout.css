@@ -250,11 +250,7 @@ h1 {
   font-size: 5.5rem;
   line-height: 1.1;
 }
-@media (max-width: 640px) {
-  h1 {
-    font-size: 3rem;
-  }
-}
+
 h2 {
   margin-left: 0;
   margin-right: 0;
@@ -697,5 +693,12 @@ main .mainContent{
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+}
+
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 3rem;
   }
 }
