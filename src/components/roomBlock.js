@@ -32,10 +32,6 @@ export default class RoomBlock extends React.Component {
       .catch(error => alert(error));
 
       event.preventDefault()
-
-
-
-    alert(`Welcome ${this.state.name} ${this.state.email}!`)
   }
   render() {
     return (
