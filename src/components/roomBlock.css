@@ -6,13 +6,19 @@
   color: white;
   border-radius: 8px 8px;
   height: 60vh;
-  width: 20vw;
-  /* font-family: 'Roboto', sans-serif; */
+  width: 60vw;
+  font-family: 'AntiqueOlive-Compact', 'Exo 2', sans-serif;
+  /* color: '#C12B34'; */
   margin: 0 auto;
 }
 
 .formContainer h1 {
   padding: 2vh;
+}
+
+.infoBlock
+.formBlock {
+  display: inline-block;
 }
 
 input {
