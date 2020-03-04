@@ -14,7 +14,7 @@ const IndexPage = () => (
         <h2 style={{color: `#C12B34`, fontSize: `42px`}}>SAVE THE DATE</h2>
         <h2 style={{color: `#C12B34`, fontSize: `42px`, fontFamily: `AntiqueOlive-Compact`}}>9.12.2020</h2>
       </div>
-      <h1 style={{color: `#C12B34`, fontSize: `120px`, fontWeight: 900, textAlign: `center`}}>ROXIE &<br/>GENEVIÈVE</h1>
+      <h1 style={{color: `#C12B34`, fontWeight: 900, textAlign: `center`}}>ROXIE &<br/>GENEVIÈVE</h1>
       <div className="bottomLine">
         <h3 style={{color: `#C12B34`, fontSize: `32px`, fontWeight: 900}}>NEW YORK, NEW YORK</h3>
         <h3 style={{color: `#C12B34`, fontSize: `32px`, fontWeight: 900}}><Link to="/page-2/">STAY AT TWA</Link></h3>
