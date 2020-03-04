@@ -38,7 +38,7 @@ export default class RoomBlock extends React.Component {
       <div className="formContainer">
       <div className="infoBlock">
         <h2>Think you'll stay at the TWA?</h2>
-        <h3>Get on the list and we'll be in touch with lodging details</h3>
+        <h3>Leave us your email and we'll be in touch with lodging details</h3>
       </div>
       <div className="formBlock">
       <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/success" onSubmit={this.handleSubmit}>

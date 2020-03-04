@@ -18,13 +18,19 @@
 .infoBlock {
   display: inline-block;
   padding: 0 1rem;
+  width: 50%;
+
 }
 
 .formBlock {
   display: inline-block;
-  padding: 0 1rem;
-  width: 60vw;
-  /* width: 50%; */
+  padding: 0rem 1rem;
+  /* width: 60vw; */
+  width: 50%;
+}
+
+form {
+  margin-top: 3.5rem;
 }
 
 input {
@@ -33,6 +39,7 @@ input {
   border-right: none;
   border-top: none;
   border-left: none;
+  border-bottom: 2px solid rgb(193, 43, 52);
   background-color:transparent;
   outline: none;
   border-color: rgb(193, 43, 52);
@@ -55,6 +62,7 @@ input[type=submit] {
   border-color: rgb(193, 43, 52);
   cursor: pointer;
   border-radius: 60rem/20rem;
+  text-align: center;
 }
 
 textarea{
@@ -72,5 +80,15 @@ ul {
 @media (max-width: 42rem) {
   .formContainer {
     flex-direction: column;
+  }
+  .infoBlock {
+    width: 85%;
+  }
+  .formBlock {
+    width: 85%;
+  }
+  input[type=submit] {
+    position: absolute;
+    left: calc(50% - 100px);
   }
 }
