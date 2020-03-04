@@ -16,9 +16,13 @@ const IndexPage = () => (
       </div>
       <h1 style={{color: `#C12B34`, fontWeight: 900, textAlign: `center`}}>ROXIE &<br/>GENEVIÈVE</h1>
       <div className="bottomLine">
-        <h3 style={{color: `#C12B34`, fontWeight: 900}}><Link to="https://www.twahotel.com/">TWA HOTEL</Link></h3>
-        <h3 style={{color: `#C12B34`, fontWeight: 900}}>NEW YORK, NEW YORK</h3>
-        <h3 style={{color: `#C12B34`, fontWeight: 900}}><Link to="/page-2">COME STAY WITH US</Link></h3>
+        <div>
+          <h3 classname='button-jittery button' style={{color: `#C12B34`, fontWeight: 900}}><Link to="/page-2">COME STAY WITH US</Link></h3>
+        </div>
+        <div>
+          <h3 style={{color: `#C12B34`, fontWeight: 900}}><Link to="https://www.twahotel.com/">TWA HOTEL</Link></h3>
+          <h3 style={{color: `#C12B34`, fontWeight: 900}}>NEW YORK, NEW YORK</h3>
+        </div>
       </div>
     </div>
   </Layout>
