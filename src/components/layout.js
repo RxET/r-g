@@ -40,8 +40,8 @@ const Layout = ({ children }) => {
       <main>{children}</main>
 
       <footer>
-      <div><Link to="/">Go home</Link></div>
-      <div style={{fontFamily: 'AntiqueOlive-BoldCond'}}>
+      <div className='leftFoot'><Link to="/">Go home</Link></div>
+      <div className='rightFoot'>
           made with ❤ by
           {` `}
           <a href="https://www.github.com/RxET">Roxie</a>

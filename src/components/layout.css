@@ -278,7 +278,7 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  /* margin-bottom: 1.45rem; */
   /* color: inherit; */
   color: rgb(193, 43, 52);
   font-family: 'AntiqueOlive-BoldCond', 'PT Sans Narrow', sans-serif;
@@ -664,9 +664,15 @@ footer {
   left:0;
   margin-right: 15px;
   margin-left: 15px;
-  margin-bottom: -5px;
+  margin-bottom: -20px;
   display: flex;
   justify-content: space-between;
+  font-size: 0.7rem;
+  font-family: 'AntiqueOlive-BoldCond', 'PT Sans Narrow', sans-serif;
+}
+
+main {
+  position: relative;
 }
 
 main {
@@ -681,7 +687,10 @@ main {
 main .mainContent{
   width: 100%;
   margin: 0 auto;
-  padding: 0 5%
+  padding: 0 5%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .overlay {
