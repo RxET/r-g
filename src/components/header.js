@@ -8,16 +8,7 @@ import Countdown from "../components/countdown"
 
 const Header = ({ siteTitle }) => (
   <header>
-        <Link
-          to="/"
-          style={{
-            color: `#C12B34`,
-            textDecoration: `none`,
-            fontSize: '24px'
-          }}
-        >
-        <Countdown/>
-        </Link>
+    <Countdown/>
   </header>
 )
 
