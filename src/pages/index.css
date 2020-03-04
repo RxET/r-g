@@ -16,6 +16,7 @@
 .button-jittery button {
   animation: jittery 4s infinite;
 }
+
 @keyframes jittery {
   5%, 50% {
     transform: scale(1);
@@ -40,10 +41,5 @@
  }
   40% {
     transform: scale(1.15) rotate(0);
- }
-}
-@keyframes heartbeat {
-  50% {
-    transform: scale(1.1);
  }
 }

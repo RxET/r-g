@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Link, useStaticQuery, graphql } from "gatsby"
-import { Location } from '@reach/router';
+// import { Location } from '@reach/router';
 
 
 
@@ -27,8 +27,8 @@ const Layout = ({ children }) => {
       }
     }
   `)
-
-  console.log(this, data)
+  console.log('sup nerds')
+  // console.log(this, data)
 
   return (
     <>
@@ -53,7 +53,7 @@ const Layout = ({ children }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  location: PropTypes.object.isRequired
+  // location: PropTypes.object.isRequired
 }
 
 export default Layout
