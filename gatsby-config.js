@@ -3,7 +3,7 @@ module.exports = {
     title: `Roxie and Geneviève`,
     description: `9.12.2020 at the TWA Hotel`,
     author: `@RxET`,
-    siteURL: 'http://roxieandgenevieve.us',
+    siteURL: "http://roxieandgenevieve.us",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -42,11 +42,21 @@ module.exports = {
           {
             family: `Exo 2`,
             subsets: [`latin`],
-            variants: [`100i`, `200i`, `300i`, `400i`, `500i`, `600i`, `700i`, `800i`, `900i`]
+            variants: [
+              `100i`,
+              `200i`,
+              `300i`,
+              `400i`,
+              `500i`,
+              `600i`,
+              `700i`,
+              `800i`,
+              `900i`,
+            ],
           },
           {
             family: `PT Sans Narrow`,
-            subsets: [`latin`]
+            subsets: [`latin`],
           },
         ],
       },
@@ -86,7 +96,7 @@ module.exports = {
         siteSpeedSampleRate: 10,
         cookieDomain: "roxieandgenevieve.us",
       },
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

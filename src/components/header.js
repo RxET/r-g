@@ -4,10 +4,9 @@ import "./header.css"
 
 import Countdown from "../components/countdown"
 
-
 const Header = ({ siteTitle }) => (
   <header>
-    <Countdown/>
+    <Countdown />
   </header>
 )
 

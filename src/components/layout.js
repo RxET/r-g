@@ -10,8 +10,6 @@ import PropTypes from "prop-types"
 import { Link, useStaticQuery, graphql } from "gatsby"
 // import { Location } from '@reach/router';
 
-
-
 import Header from "./header"
 import "./layout.css"
 import Clouds from "../assets/Clouds.mp4"
@@ -27,7 +25,7 @@ const Layout = ({ children }) => {
       }
     }
   `)
-  console.log('sup nerds')
+  console.log("sup nerds")
   // console.log(this, data)
 
   return (
@@ -40,8 +38,10 @@ const Layout = ({ children }) => {
       <main>{children}</main>
 
       <footer>
-      <div className='leftFoot'><Link to="/">Go home</Link></div>
-      <div className='rightFoot'>
+        <div className="leftFoot">
+          <Link to="/">Go home</Link>
+        </div>
+        <div className="rightFoot">
           made with ❤ by
           {` `}
           <a href="https://www.github.com/RxET">Roxie</a>

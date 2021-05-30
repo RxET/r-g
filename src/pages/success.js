@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react"
 // import Helmet from 'react-helmet';
-import Layout from '../components/layout';
+import Layout from "../components/layout"
 
 // import pic11 from '../assets/images/pic11.jpg';
 
 const Success = props => (
   <Layout>
-  {/*
+    {/*
     <Helmet>
       <title>Success Page</title>
       <meta name="description" content="Success Page" />
@@ -16,7 +16,7 @@ const Success = props => (
     <div id="main" className="alt">
       <section id="one">
         <div className="inner">
-          <header className="major" style={{textAlign: `center`}}>
+          <header className="major" style={{ textAlign: `center` }}>
             <h1>Thanks!</h1>
             <h2>We'll be in touch via e-mail with room block details</h2>
           </header>
@@ -24,6 +24,6 @@ const Success = props => (
       </section>
     </div>
   </Layout>
-);
+)
 
-export default Success;
+export default Success
